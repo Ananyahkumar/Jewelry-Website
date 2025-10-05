@@ -1,0 +1,11 @@
+{
+  "name": "jewelry-website",
+  "version": "1.0.0",
+  "private": true,
+
+  "scripts": {
+    "start": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "server": "npm start --prefix server"
+  }
+}
